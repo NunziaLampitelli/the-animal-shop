@@ -1,4 +1,4 @@
-import CatLogo from "../../public/munchkin.png";
+import CatLogo from "../assets/pictures/munchkin.png"
 import "./components-css/header.css"
 function Header() {
 	return (
