@@ -1,3 +1,17 @@
 .footer > h4 {
   font-family: "Barrio", system-ui;
 }
+
+.footer > * {
+  margin-inline: 5rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 20vh;
+  background-color: #60819A;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}

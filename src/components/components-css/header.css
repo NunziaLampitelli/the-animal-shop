@@ -10,6 +10,8 @@
   color: white;
   font-family: "Barrio", system-ui;
   font-size: 2rem;
+  box-shadow: inset 0px -4px 1px #FFE0B6;
+  
 }
 
 .header-nav {

@@ -1,0 +1,36 @@
+.shop {
+  width: 100vw;
+  height: 60vh;
+  background-color: #FDBC73;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Finger Paint", sans-serif
+}
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.shop-container > article {
+  width: 15vw;
+  height: 42vh;
+  margin-inline: 5rem;
+  margin-top: 2rem;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #60819A;
+}
+
+.shop-card > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: -2px -2px 5px #FDBC73;
+}
