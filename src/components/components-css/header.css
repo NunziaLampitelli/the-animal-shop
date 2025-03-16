@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  background-color: brown;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: "Barrio", system-ui;
+  font-size: 2rem;
+}
+
+.header-nav {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-nav > a {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  height: 100%;
+  width: auto;
+}
